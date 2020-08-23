@@ -1174,3 +1174,89 @@ hr {
 
 
 
+.footer {
+    padding-top: 65px;
+
+    background-color: #f8f8f8;
+}
+
+
+
+.footer__inner {
+    padding-bottom: 65px;
+}
+
+
+
+.footer__logo {
+    margin-bottom: 30px;
+
+    font-size: 46px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+
+
+.footer__text {
+    margin-bottom: 30px;
+
+    font-size: 15px;
+    color: #999;
+}
+
+
+
+
+.footer__social {
+    margin-bottom: 25px;
+}
+
+
+
+.footer__social-header {
+    padding-bottom: 15px;
+
+    font-size: 14px;
+    color: #333;
+
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+.footer__social-header b {
+    font-size: 18px;
+}
+
+
+
+.footer__social-content {
+    padding-top: 15px;
+
+    font-size: 15px;
+    font-style: italic;
+    color: #999;
+    font-weight: 300;
+}
+
+
+
+.footer__social-content a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+
+    font-size: 18px;
+    color: #95e1d3;
+}
+
+
+
+.subscribe {
+    width: 100%;
+    max-width: 380px;
+}
+
+
+
