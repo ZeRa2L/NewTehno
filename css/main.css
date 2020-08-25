@@ -1285,6 +1285,8 @@ hr {
 
 .blogs__item {
     display: flex;
+    margin-bottom: 30px;
+    align-items: center;
 }
 
 
@@ -1300,6 +1302,31 @@ hr {
     padding-left: 20px;
 }
 
+
+
+.blogs__title {
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+
+
+.blogs__title:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.blogs__date {
+    font-size: 13px;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+}
 
 
 
@@ -1370,4 +1397,44 @@ hr {
 
 .subscribe__btn:focus {
     outline: 0;
+}
+
+
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.instagram__item {
+    width: 31%;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.instagram__item img {
+    display: block;
+}
+
+
+
+.copyright {
+    border-top: 1px solid #e5e5e5;
+
+    text-align: center;
+
+    padding: 20px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+.copyright span {
+    color: red;
 }
