@@ -35,6 +35,12 @@ hr {
 
 
 
+.page {
+    overflow: hidden;
+}
+
+
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -1160,7 +1166,6 @@ hr {
 .footer__inner {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
     justify-content: space-between;
     padding-bottom: 65px;
 }
@@ -1507,6 +1512,10 @@ hr {
         margin-bottom: 0;
     }
 
+    .footer__inner {
+        margin-left: auto;
+    }
+
     .footer__col--first {
         width: 100%;
     }
@@ -1731,6 +1740,30 @@ hr {
 
     .clients__text:before {
         margin: 15px auto;
+    }
+
+    .subscribe {
+        flex-wrap: wrap;
+        max-width: none;
+    }
+
+    .subscribe__input {
+        margin-bottom: 10px;
+        border-right-style: 1px solid #e7e7e7;
+    }
+
+    .subscribe__input,
+    .subscribe__btn {
+        width: 100%;
+    }
+
+    .blogs__img {
+        width: 80px;
+        height: 50px;
+    }
+
+    .blogs__title {
+        font-size: 10px;
     }
 
 }
