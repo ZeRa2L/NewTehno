@@ -145,9 +145,7 @@ hr {
 
 
 
-.header--fixed {
-    padding: 10px 0;
-
+.header.fixed {
     background-color: #81ddcce8;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
 
@@ -157,6 +155,12 @@ hr {
     left: 0;
 
     transform: translate3d(0, 0, 0);
+}
+
+
+
+.header.active {
+    background-color: #81ddcce8
 }
 
 
@@ -249,8 +253,8 @@ hr {
     cursor: pointer;
 
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 20px;
+    right: 30px;
     z-index: 1;
 }
 
@@ -269,6 +273,19 @@ hr {
     right: 0;
     bottom: 0;
     margin: auto;
+}
+
+
+
+.nav-toggle.active .nav-toggle__item {
+    background: none;
+}
+
+
+
+.nav-toggle.active .nav-toggle__item:before {
+    transform-origin: left top;
+    transform: rotate(45deg)   
 }
 
 
@@ -1626,7 +1643,7 @@ hr {
 @media (max-width: 770px) {
 
     .header {
-        top: 10px;
+        padding: 10px 0;
     }
 
     .intro {
@@ -1635,6 +1652,20 @@ hr {
 
     .nav {
         display: none;
+        width: 100%;
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        background-color: #81ddcce8;
+    }
+
+    .nav__link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
     }
 
     .nav-toggle {
