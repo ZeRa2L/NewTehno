@@ -12,22 +12,22 @@
 
 
 
-<header class="header">
+<header class="header" id="header">
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo">NewTehno</div>
+            <div class="header__logo" data-scroll="#intro">NewTehno</div>
 
-            <nav class="nav">
-                <a class="nav__link active" href="#">about</a>
-                <a class="nav__link" href="#">game</a>
-                <a class="nav__link" href="#">home</a>
-                <a class="nav__link" href="#">time</a>
-                <a class="nav__link" href="#">apple</a>
-                <a class="nav__link" href="#"><i class="fa fa-vk"></i></a>
-                <a class="nav__link" href="#"><i class="fa fa-vk"></i></a>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#about">about</a>
+                <a class="nav__link" href="#" data-scroll="#game">game</a>
+                <a class="nav__link" href="#" data-scroll="#home">home</a>
+                <a class="nav__link" href="#" data-scroll="#time">time</a>
+                <a class="nav__link" href="#" data-scroll="#apple">apple</a>
+                <a class="nav__link" href="#" data-scroll="#vk"><i class="fa fa-vk"></i></a>
+                <a class="nav__link" href="#" data-scroll="#vkk"><i class="fa fa-vk"></i></a>
             </nav>
 
-            <button class="nav-toggle" type="button">
+            <button class="nav-toggle" id="nav_toggle" type="button">
                 <span class="nav-toggle__item">menu</span>
             </button>
         </div>
@@ -36,7 +36,7 @@
     
 <div class="page">
 
-<div class="intro">
+<div class="intro" id="intro">
     <div class="container">
         <div class="intro__inner">
         <h2 class="intro__suptitle">Creative Template</h2>
@@ -72,7 +72,7 @@
 </div>
     
 
-<section class="section">
+<section class="section" id="about">
     <div class="container">
         <div class="section__header">
             <h3 class="section__suptitle">what we do</h3>
@@ -145,7 +145,7 @@
 
 
 
-<section class="section">
+<section class="section" id="game">
     <div class="container">
 
         <div class="section__header">
@@ -229,7 +229,7 @@
 
 
 
-<section class="section">
+<section class="section" id="time">
     <div class="container">
 
         <div class="section__header">
@@ -306,7 +306,7 @@
 
 
 
-<section class="section">
+<section class="section" id="apple">
     <div class="container">
 
         <div class="section__header">
@@ -439,7 +439,7 @@
 
 
 
-    <section class="section">
+    <section class="section" id="vk">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">who we are</h3>
@@ -540,7 +540,7 @@
 
 
 
-    <section class="section  section--clients">
+    <section class="section  section--clients" id="vkk">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">happy clients</h3>
@@ -588,7 +588,7 @@
 
 
 
-<section class="section">
+<section class="section" id="home">
     <div class="container">
 
         <div class="section__header">
@@ -806,6 +806,8 @@
 
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="javascript/app.js"></script>
 
 </body>
 </html>

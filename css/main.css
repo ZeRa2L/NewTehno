@@ -126,7 +126,7 @@ hr {
     display: block;
     width: 100px;
     height: 4px;
-    margin: 60px auto 60px;
+    margin: 40px auto 40px;
 
     background-color: #fff;
 }
@@ -184,6 +184,12 @@ hr {
 .nav {
     font-size: 14px;
     text-transform: uppercase;
+}
+
+
+
+.nav.active {
+    display: block;
 }
 
 
@@ -256,6 +262,12 @@ hr {
     top: 20px;
     right: 30px;
     z-index: 1;
+}
+
+
+
+.nav-toggle__item {
+    outline: 0;
 }
 
 
